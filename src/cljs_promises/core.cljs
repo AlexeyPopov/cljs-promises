@@ -1,4 +1,5 @@
-(ns cljs-promises.core)
+(ns cljs-promises.core
+  (:refer-clojure :exclude [resolve]))
 
 (defn- cast-as-array
   [coll]
